@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+#appbody{
+    background: linear-gradient(180deg, rgb(9, 9, 18),rgb(48, 48, 130));
+}
+
+#aboutbody{
+    backdrop-filter: blur(500px);
+}
+
+*{
+    scroll-behavior: smooth;
+}
+#homeImg{
+    filter: drop-shadow(5px 5px 10px white);
+}
