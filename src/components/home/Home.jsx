@@ -1,5 +1,5 @@
 import React from 'react'
-import avatarImg from '../../assets/head.png'
+import avatarImg from '../../assets/head.PNG'
 import TextChange from '../TextChange'
 
 function Home() {
