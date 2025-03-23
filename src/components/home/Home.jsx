@@ -2,7 +2,7 @@ import React from 'react'
 import avatarImg from '../../assets/my_bg.png'
 import TextChange from '../TextChange'
 import { LuDownload } from 'react-icons/lu'
-import resume from '../../assets/resume/Resume_.pdf'
+import resume from '../../assets/resume/resume_07.pdf'
 
 function Home() {
 
