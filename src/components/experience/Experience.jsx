@@ -1,10 +1,10 @@
 import React from 'react'
 import { FaCss3, FaHtml5, FaJs, FaReact, FaNodeJs } from 'react-icons/fa'
 import {DiMysql} from 'react-icons/di'
-import {FaGoogle} from 'react-icons/fa'
 import{ SiMongodb } from 'react-icons/si'
 import { RiNetflixFill } from '@remixicon/react'
-import {FaAmazon} from 'react-icons/fa'
+import { LuDatabase } from 'react-icons/lu'
+
 
 function Experience() {
   return (
@@ -64,36 +64,36 @@ function Experience() {
             </div>
 
             <div className='flex flex-wrap gap-5 mt-5 md:mt-20'>
-             <div className='flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center'>
-                <FaGoogle color='#4285F4' size={50}/>
+             <div className='flex gap-10 w-70 md:w-80 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center'>
+                <FaHtml5 color='#E34F26' size={50}/>
                 <span className='text-white'>
                     <h2>Frontend Technology</h2>
                     {/* <p className='text-sm leading-tight font-thin'>Sept 2023 - Present</p> */}
                     <ul className='text-sm p-2'>
-                        <li>- Work as a software developer</li>
-                        <li>- Senior SDE developer</li>
+                        <li>- HTML, CSS,</li>
+                        <li>- TailwindCss, ReactJS</li>
                     </ul>
                 </span>
              </div>
-             <div className='flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center'>
-                <FaAmazon color='white' size={50}/>
+             <div className='flex gap-10 w-70 md:w-80 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center'>
+                <FaNodeJs color='#68a063' size={50}/>
                 <span className='text-white'>
                     <h2>Backend Technology</h2>
                     {/* <p className='text-sm leading-tight font-thin'>Sept 2023 - Present</p> */}
                     <ul className='text-sm p-2'>
-                        <li>- Work as a software developer</li>
-                        <li>- Senior SDE developer</li>
+                        <li>- NodeJS</li>
+                        <li>- ExpressJS</li>
                     </ul>
                 </span>
              </div>
-             <div className='flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center'>
-                <RiNetflixFill color='red' size={50}/>
+             <div className='flex gap-10 w-70 md:w-80 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center'>
+                <LuDatabase color='gray' size={50}/>
                 <span className='text-white'>
                     <h2>Databases</h2>
                     {/* <p className='text-sm leading-tight font-thin'>Sept 2023 - Present</p> */}
                     <ul className='text-sm p-2'>
-                        <li>- Work as a software developer</li>
-                        <li>- Senior SDE developer</li>
+                        <li>- MongoDB</li>
+                        <li>- MySQL</li>
                     </ul>
                 </span>
              </div>

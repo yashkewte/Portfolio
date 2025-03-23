@@ -9,8 +9,9 @@ import toast from "react-hot-toast"
 
 function App() {
 
-
+  document.title = "Yash Kewte"
   return (
+
     // use bg color [#171d32u]
     <div id="appbody" className="bg-blue-950 h-auto w-full overflow-hidden">
       <Navbar />

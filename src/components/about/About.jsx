@@ -1,6 +1,6 @@
 import React from 'react'
 import { IoArrowForward } from 'react-icons/io5'
-import aboutImg from '../../assets/Untitled.jpg'
+import aboutImg from '../../assets/new.jpg'
 
 
 function About() {
@@ -10,7 +10,8 @@ function About() {
         <h2 className='text-2xl md:text-4xl font-bold'>About</h2>
         <div className='md:flex flex-wrap flex-col md:flex-row gap-5 items-center'>
             <img src={aboutImg} alt="About" 
-            className='md:h-80 mr-3'  />
+            className='md:h-80 mr-3 rounded-2xl' 
+            loading='lazy' />
 
             <ul>
                 <div className='flex gap-3 py-4'>
