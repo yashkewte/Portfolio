@@ -9,7 +9,7 @@ function Projects() {
   return (
     <div id='Projects' className='p-10 md:p-24 text-white'>
       <h1 className='text-2xl md:text-4xl text-white font-bold'>Projects</h1>
-      <div className='py-12 px-8 flex flex-wrap gap-5 md:justify-evenly '>
+      <div className='py-12 px-8 flex flex-wrap gap-5 md:justify-evenly justify-center'>
         <ProjectCard 
           title='Expense Tracker'
           para="This is a Expense Tracker website that tracks your income and expenses. It is created in reactjs, nodejs, expressjs, mongoDB and some componenet library"

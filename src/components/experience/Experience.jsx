@@ -2,7 +2,6 @@ import React from 'react'
 import { FaCss3, FaHtml5, FaJs, FaReact, FaNodeJs } from 'react-icons/fa'
 import {DiMysql} from 'react-icons/di'
 import{ SiMongodb } from 'react-icons/si'
-import { RiNetflixFill } from '@remixicon/react'
 import { LuDatabase } from 'react-icons/lu'
 
 
