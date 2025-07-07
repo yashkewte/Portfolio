@@ -1,4 +1,5 @@
-import React from 'react'
+
+import PropTypes from 'prop-types';
 
 function ProjectCard({ title, prjectImg, para, codeLink, demoLink, handleClick }) {
   return (
@@ -25,5 +26,14 @@ function ProjectCard({ title, prjectImg, para, codeLink, demoLink, handleClick }
     </div>
   )
 }
+ProjectCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  prjectImg: PropTypes.string.isRequired,
+  para: PropTypes.string.isRequired,
+  codeLink: PropTypes.string.isRequired,
+  demoLink: PropTypes.string.isRequired,
+  handleClick: PropTypes.func,
+};
 
 export default ProjectCard
+
