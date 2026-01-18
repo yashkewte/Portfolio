@@ -5,7 +5,7 @@ import Experience from "./components/experience/Experience"
 import Projects from "./components/projects/Projects"
 import Footer from "./components/footer/Footer"
 import { Toaster } from "react-hot-toast"
-import toast from "react-hot-toast"
+
 
 function App() {
 
