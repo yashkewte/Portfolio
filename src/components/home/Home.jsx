@@ -44,13 +44,13 @@ function Home() {
           avatarUrl={avatarImg}
           showUserInfo={true}
           enableTilt={true}
-      
-          onContactClick={() =>{
+
+          onContactClick={() => {
             const section = document.getElementById('Contact')
             if (section) {
               section.scrollIntoView({ behavior: 'smooth' })
             }
-            
+
           }}
         />
       </div>

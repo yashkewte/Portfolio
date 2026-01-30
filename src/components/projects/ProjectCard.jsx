@@ -1,11 +1,11 @@
 
 import PropTypes from 'prop-types';
 
-function ProjectCard({ title, prjectImg, para, codeLink, demoLink, handleClick }) {
+function ProjectCard({ title, projectImg, para, codeLink, demoLink, handleClick }) {
   return (
     <div className='p-3 md:p-6 flex flex-col w-90  bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl ' >
       <div>
-        <img src={prjectImg} alt="Card"
+        <img src={projectImg} alt="Card"
           className='p-3 rounded-3xl drop-shadow-lg'
         />
         <h3 className='px-4 text-xl md:text-2xl font-bold leading-normal'>
@@ -28,10 +28,10 @@ function ProjectCard({ title, prjectImg, para, codeLink, demoLink, handleClick }
 }
 ProjectCard.propTypes = {
   title: PropTypes.string.isRequired,
-  prjectImg: PropTypes.string.isRequired,
+  projectImg: PropTypes.string.isRequired,
   para: PropTypes.string.isRequired,
   codeLink: PropTypes.string.isRequired,
-  demoLink: PropTypes.string.isRequired,
+  demoLink: PropTypes.string,
   handleClick: PropTypes.func,
 };
 

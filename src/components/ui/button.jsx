@@ -52,4 +52,13 @@ function Button({
   );
 }
 
+import PropTypes from 'prop-types';
+
 export { Button, buttonVariants }
+
+Button.propTypes = {
+  className: PropTypes.string,
+  variant: PropTypes.string,
+  size: PropTypes.string,
+  asChild: PropTypes.bool,
+}

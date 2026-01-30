@@ -3,22 +3,14 @@ import { motion } from "framer-motion"
 // import Link from "next/link"
 import { cn } from "@/lib/utils"
 
+import PropTypes from 'prop-types';
+
 export function NavBar({
   items,
   className
 }) {
   const [activeTab, setActiveTab] = useState(items[0].name)
-  const [isMobile, setIsMobile] = useState(false)
 
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 768)
-    }
-
-    handleResize()
-    window.addEventListener("resize", handleResize)
-    return () => window.removeEventListener("resize", handleResize);
-  }, [])
 
   return (
     <div
@@ -73,3 +65,14 @@ export function NavBar({
     </div>
   );
 }
+
+NavBar.propTypes = {
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      url: PropTypes.string.isRequired,
+      icon: PropTypes.elementType.isRequired,
+    })
+  ).isRequired,
+  className: PropTypes.string,
+};

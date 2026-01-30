@@ -9,34 +9,34 @@ function About() {
       <div>
         <h2 className='text-2xl md:text-4xl font-bold'>About</h2>
         <div className='md:flex flex-wrap flex-col md:flex-row gap-5 justify-center items-center'>
-            <img src={aboutImg} alt="About" 
-            className='md:h-80 mr-3 rounded-2xl' 
+          <img src={aboutImg} alt="About"
+            className='md:h-80 mr-3 rounded-2xl'
             loading='lazy' />
 
-            <ul>
-                <div className='flex gap-3 py-4'>
-                    <IoArrowForward
-                    size={30}
-                    className='mt-1'
-                    />
-                    <span className='w-96'>
-                        <h1 className='text-2xl font-semibold md:text-3xl mb-2 leading-normal'>Fronend Developer</h1>
-                        
-                        <p className='text-sm md:text-md leading-tight'>I can design Frontend with a keen eye for design and a strong foundation in modern web technologies. I specialize in building responsive, user-friendly websites and web applications using HTML, CSS, JavaScript, and the MERN stack. With expertise in React.js, I focus on creating seamless and dynamic user experiences.</p>
-                    </span>
-                </div>
-                <div className='flex gap-3 py-4'>
-                    <IoArrowForward
-                    size={30}
-                    className='mt-1'
-                    />
-                    <span className='w-96'>
-                        <h1 className='text-2xl font-semibold md:text-3xl mb-2 leading-normal'>Backend Developer</h1>
-                        
-                        <p className='text-sm md:text-md leading-tight'>I'm a Backend Web Developer With expertise in Node.js, Express.js, MongoDB, and RESTful APIs, JWT Authentication, Socket IO. I specialize in creating robust backend systems that power seamless user experiences. </p>
-                    </span>
-                </div>
-                {/* <div className='flex gap-3 py-4'>
+          <ul>
+            <div className='flex gap-3 py-4'>
+              <IoArrowForward
+                size={30}
+                className='mt-1'
+              />
+              <span className='w-96'>
+                <h1 className='text-2xl font-semibold md:text-3xl mb-2 leading-normal'>Frontend Developer</h1>
+
+                <p className='text-sm md:text-md leading-tight'>I design friendly interfaces with a keen eye for design and a strong foundation in modern web technologies. I specialize in building responsive, user-friendly websites and web applications using HTML, CSS, JavaScript, and the MERN stack. With expertise in React.js, I focus on creating seamless and dynamic user experiences.</p>
+              </span>
+            </div>
+            <div className='flex gap-3 py-4'>
+              <IoArrowForward
+                size={30}
+                className='mt-1'
+              />
+              <span className='w-96'>
+                <h1 className='text-2xl font-semibold md:text-3xl mb-2 leading-normal'>Backend Developer</h1>
+
+                <p className='text-sm md:text-md leading-tight'>I'm a Backend Web Developer with expertise in Node.js, Express.js, MongoDB, and RESTful APIs, JWT Authentication, Socket IO. I specialize in creating robust backend systems that power seamless user experiences. </p>
+              </span>
+            </div>
+            {/* <div className='flex gap-3 py-4'>
                     <IoArrowForward
                     size={30}
                     className='mt-1'
@@ -47,7 +47,7 @@ function About() {
                         <p className='text-sm md:text-md leading-tight'></p>
                     </span>
                 </div> */}
-            </ul>
+          </ul>
         </div>
       </div>
     </div>
