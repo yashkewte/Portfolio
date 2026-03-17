@@ -1,4 +1,3 @@
-import React from 'react'
 import ProjectCard from './ProjectCard'
 import ExpenseTrackerImg from '../../assets/ExpenseTracker.png'
 import PortfolioImg from '../../assets/portfolio.png'
